@@ -70,3 +70,6 @@ sudo pip install pydeep
 sudo apt-get install libffi-dev
 cd cuckoo
 sudo pip install -r requirements.txt
+###############################################################################
+# enable ipv4 ip_forwarding
+sudo sysctl -w net.ipv4.ip_forward=1
