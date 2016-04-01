@@ -20,7 +20,7 @@ Also, you might want to install all comunity plugins, with
 - Download, and install a Windows VM (Win XP SP3 is recomended): https://dev.modern.ie/tools/vms/
 - Install Python 2.7: https://www.python.org/downloads/
 - Install PIL Python (2.7): http://www.pythonware.com/products/pil/
-- Download cuckoo agent.py, rename as agent.py and make it running at the startup: https://github.com/cuckoobox/cuckoo/blob/master/agent/agent.py
+- Download cuckoo agent.py, rename as agent.pyw and make it running at the startup (regedit): https://github.com/cuckoobox/cuckoo/blob/master/agent/agent.py
 - Switch off windows firewall
 - Switch off autoimatic updates
 
