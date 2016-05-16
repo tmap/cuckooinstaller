@@ -15,7 +15,7 @@ sudo python setup.py install
 
 ###############################################################################
 # install mongo-db and django for reporting
-sudo apt-get --yes --force-yes  install python-pymongo mongodb python-django
+sudo apt-get --yes --force-yes  install python-pymongo mongodb python-django python-gridfs
 
 
 sudo apt-get  --yes --force-yes install g++ libpcre3 libpcre3-dev
