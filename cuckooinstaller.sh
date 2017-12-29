@@ -8,7 +8,7 @@ mkdir malware_analysis
 cd malware_analysis
 ###############################################################################
 # install pyssdep
-svn checkout http://pyssdeep.googlecode.com/svn/trunk/ pyssdeep
+git clone https://github.com/bunzen/pySSDeep
 cd pyssdeep
 python setup.py build
 sudo python setup.py install
@@ -48,10 +48,10 @@ sudo getcap /usr/sbin/tcpdump
 
 ###############################################################################
 # install virtualbox 5
-sudo echo  "deb http://download.virtualbox.org/virtualbox/debian trusty contrib" >> /etc/apt/sources.list
+sudo echo  "deb http://download.virtualbox.org/virtualbox/debian xenial contrib" >> /etc/apt/sources.list
 sudo wget -q https://www.virtualbox.org/download/oracle_vbox.asc -O- | sudo apt-key add -
 sudo apt-get update
-sudo apt-get  --yes --force-yes install virtualbox-5.0
+sudo apt-get  --yes --force-yes install virtualbox-5.2
 sudo apt-get install dkms
 
 
