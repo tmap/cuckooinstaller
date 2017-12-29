@@ -1,7 +1,7 @@
 ###############################################################################
 # automating the installation of cuckoosandbox
 sudo apt-get --yes update
-sudo apt-get --yes --force-yes install python python-magic python-dpkt python-mako python-sqlalchemy python-jinja2 python-bottle -y
+sudo apt-get --yes --force-yes install python python-magic python-dpkt python-mako python-sqlalchemy python-jinja2 python-bottle python-dev build-essential libssl-dev libffi-dev libxml2-dev libxslt1-dev zlib1g-dev python-pip -y
 sudo apt-get --yes --force-yes install ssdeep python-pyrex subversion
 sudo apt-get  --yes --force-yes install libfuzzy-dev
 mkdir malware_analysis
