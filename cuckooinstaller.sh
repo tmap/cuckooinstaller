@@ -9,7 +9,7 @@ cd malware_analysis
 ###############################################################################
 # install pyssdep
 git clone https://github.com/bunzen/pySSDeep
-cd pyssdeep
+cd pySSDeep
 python setup.py build
 sudo python setup.py install
 
